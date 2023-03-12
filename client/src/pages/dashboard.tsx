@@ -94,7 +94,7 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div className="flex flex-col justify-between">
             {transactions.map((transaction: Transaction) => (
-              <CardBoxTransaction key={transaction.id} transaction={transaction} />
+            
             ))}
           </div>
           <div className="flex flex-col justify-between">
