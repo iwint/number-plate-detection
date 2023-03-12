@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-env node */
 /* eslint-disable-next-line */
 const plugin = require('tailwindcss/plugin')
@@ -78,3 +79,12 @@ module.exports = {
     require('@tailwindcss/line-clamp')
   ]
 }
+=======
+module.exports = {
+  content: ["./src/**/*.{tsx,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+>>>>>>> 614a472c44e13f41c9cf69d706ef88fa2f1e1e37
