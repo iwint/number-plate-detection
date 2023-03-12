@@ -2,12 +2,12 @@
  * @type {import('next').NextConfig}
  */
  const nextConfig = {
-  basePath: "/admin-one-react-tailwind",
+  basePath: "/client",
   async redirects() {
     return [
       {
           source: '/',
-          destination: '/admin-one-react-tailwind',
+          destination: '/client',
           basePath: false,
           permanent: false
       }
