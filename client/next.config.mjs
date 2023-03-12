@@ -2,12 +2,12 @@
  * @type {import('next').NextConfig}
  */
  const nextConfig = {
-  basePath: "/client",
+  basePath: "/",
   async redirects() {
     return [
       {
           source: '/',
-          destination: '/client',
+          destination: '/',
           basePath: false,
           permanent: false
       }
@@ -18,7 +18,7 @@
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'static.justboil.me',
+        hostname: 'example.com',
       },
     ],
   },

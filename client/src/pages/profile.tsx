@@ -43,7 +43,7 @@ const ProfilePage = () => {
       <SectionMain>
         <SectionTitleLineWithButton icon={mdiAccount} title="Profile" main>
           <BaseButton
-            href="https://github.com/justboil/admin-one-react-tailwind"
+            href="https://github.com/balaji-sivasakthi/number-plate-detection"
             target="_blank"
             icon={mdiGithub}
             label="Star on GitHub"
